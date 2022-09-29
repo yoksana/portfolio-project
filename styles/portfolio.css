@@ -2,14 +2,25 @@
   --text-alignment: center;
   --branding-color: #6c63ff;
   --secondary-color: #b2b2b74e;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
 }
-h1,
-h2,
-h3 {
-  color: black;
-  text-align: var(--text-alignment);
+body {
+  font-family: (--default-font-family);
 }
 
+.my-name {
+  font-size: 96px;
+  font-weight: bold;
+}
+h2 {
+  font-size: 30px;
+}
+p {
+  margin-bottom: 48px;
+  font-size: 24px;
+  font-family: var(--heading-font-family);
+}
 a {
   text-align: center;
 }
