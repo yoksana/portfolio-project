@@ -10,10 +10,10 @@
   display: block;
   background: var(--secondary-color);
   text-align: center;
-  padding: 100px 20px;
-  font-family: (--default-font-family);
+  padding: 160px 20px;
 }
-.home-text p {
+.hello-text {
+  font-family: (--default-font-family);
   font-size: 36px;
   font-weight: bold;
 }
