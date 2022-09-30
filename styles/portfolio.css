@@ -6,7 +6,7 @@
   --default-font-family: "Poppins", sans-serif;
 }
 
-.home-text {
+.section-border {
   display: block;
   background: var(--secondary-color);
   text-align: center;
@@ -60,4 +60,36 @@ p {
   .project-header {
     font-size: 36px;
   }
+  .my-name {
+    font-size: 36px;
+  }
+  .hello-text {
+    font-family: (--default-font-family);
+    font-size: 24px;
+  }
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+.about-part {
+  margin: 10px 30px 30px 30px;
+}
+.about-name {
+  font-size: 64px;
+  line-height: 80px;
+  font-family: var(--heading-font-family);
+}
+.about-location {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+  font-weight: bold;
 }
