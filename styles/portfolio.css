@@ -10,7 +10,7 @@
   display: block;
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 110px 20px;
 }
 .hello-text {
   font-family: (--default-font-family);
@@ -28,7 +28,7 @@ h4 {
   font-family: var(--heading-font-family);
 }
 
-.contact-button {
+.navigation-links {
   display: inline-block;
   background: var(--branding-color);
   border-radius: 4px;
