@@ -12,6 +12,7 @@
   text-align: center;
   padding: 110px 20px;
 }
+
 .hello-text {
   font-family: (--default-font-family);
   font-size: 36px;
@@ -91,5 +92,18 @@ p {
 .about-location {
   font-size: 18px;
   font-family: var(--default-font-family);
+  font-weight: bold;
+}
+.work-project {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: var(--default-font-family);
+  margin: 0;
+}
+.built-with {
+  font-size: 14px;
+  color: #6c757d;
+  margin-bottom: 16px;
   font-weight: bold;
 }
