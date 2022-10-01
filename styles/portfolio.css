@@ -12,6 +12,11 @@
   text-align: center;
   padding: 110px 20px;
 }
+.section-border-no-background {
+  display: block;
+  text-align: center;
+  padding: 110px 20px;
+}
 
 .hello-text {
   font-family: (--default-font-family);
