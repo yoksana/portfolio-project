@@ -47,6 +47,36 @@ h4 {
 p {
   font-size: 20px;
 }
+.container {
+  margin: 0 50px;
+}
+nav img {
+  max-height: 40px;
+}
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  list-style: none;
+  padding: 0;
+  margin: 0 7px;
+  display: inline;
+  line-height: 42px;
+}
+nav a {
+  text-decoration: none;
+  color: #272142;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+nav a:hover,
+nav a.active {
+  color: var(--branding-color);
+}
 
 .project-header {
   font-size: 64px;
