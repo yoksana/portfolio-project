@@ -1,7 +1,7 @@
 :root {
   --text-alignment: center;
   --branding-color: #6c63ff;
-  --secondary-color: #b2b2b74e;
+  --secondary-color: #c7c7cd27;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -141,4 +141,24 @@ nav a.active {
   color: #6c757d;
   margin-bottom: 16px;
   font-weight: bold;
+}
+.contact-section {
+  background: var(--secondary-color);
+}
+
+h4 {
+  font-family: var(--heading-font-family);
+}
+.social-media {
+  margin: 20px 50px;
+  color: var(--branding-color);
+}
+
+.social-media a {
+  color: var(--branding-color);
+  margin: 0 20px;
+}
+
+.social-media a:hover {
+  color: #6c757d;
 }
